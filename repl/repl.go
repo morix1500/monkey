@@ -3,9 +3,9 @@ package repl
 import (
 	"bufio"
 	"fmt"
-	"io"
 	"github.com/morix1500/monkey/lexer"
 	"github.com/morix1500/monkey/token"
+	"io"
 )
 
 const PROMPT = ">> "
